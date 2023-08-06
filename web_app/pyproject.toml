@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-web-home-work-4"
+version = "0.1.0"
+description = ""
+authors = ["Alexey-Goryachev <goryachev.alex00@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_web_home_work_4"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
